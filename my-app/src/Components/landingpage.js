@@ -1,10 +1,50 @@
 import React, {Component} from 'react';
+import { Cell, Grid } from 'react-mdl';
 
 class Landing extends Component {
 
     render(){
         return (
-            <div><h1>Landing Page</h1> </div>
+            <div style= {{width: '100%', margin: 'auto'}}>
+                <Grid className="landing-grid">
+                    <Cell col={12}>
+                        <img 
+                            src="yo.png"
+                            alt= "Daniel-memoji"
+                            className="memoji" />
+
+                        <div className="banner-text">
+                            <h1>Full Stack Web Developer</h1>
+                            <hr/>
+                            <p> HTML/CSS | JavaScript | React | NodeJs | Express | MongoDB | Bootstrap | MySQL  </p>
+                             <div className="socials">
+                                  
+                                  {/*github */}
+                                  <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+                                     <i className= "fa fa-github-square" aria-hidden="true"/>
+                                  </a>
+
+                                    {/*linkedin */}
+                                  <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+                                     <i className= "fa fa-linkedin-square" aria-hidden="true"/>
+                                  </a>
+
+                                    {/*instagram */}
+                                  <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+                                     <i className= "fa fa-youtube-square" aria-hidden="true"/>
+                                  </a>
+
+                                   {/*Bootcamp */}
+                                   <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+                                     <i className= "fa fa-google-plus-square" aria-hidden="true"/>
+                                  </a>
+
+
+                              </div>
+                        </div>
+                    </Cell>
+                </Grid>
+            </div>
         )
     }
 }
