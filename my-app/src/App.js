@@ -10,7 +10,7 @@ function App() {
     <Layout>
         <Header className="header-gradient" title="Daniel Balderas H." scroll>
             <Navigation>
-                <Link to="/resume">Resume</Link>
+               
                 <Link to="/aboutme">About me</Link>
                 <Link to="project/">Projects</Link>
                 <Link to="/contact">Contact</Link>
@@ -18,7 +18,7 @@ function App() {
         </Header>
         <Drawer title="Title">
             <Navigation>
-                <Link to="/resume">Resume</Link>
+            
                 <Link to="/aboutme">About me</Link>
                 <Link to="project/">Projects</Link>
                 <Link to="/contact">Contact</Link>
