@@ -1,3 +1,9 @@
+Official site for Daniel Balderas H. 
+
+Full stack web developer
+
+Website made with React and deployed on Heroku
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
