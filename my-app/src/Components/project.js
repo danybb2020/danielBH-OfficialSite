@@ -1,5 +1,16 @@
 import React, {Component} from 'react';
-import {Tabs,Tab, Grid, Cell, Card, CardText, CardActions, CardTitle, Button, IconButton, CardMenu} from "react-mdl";
+import {Tabs,Tab, Grid, Cell, Card, CardText, CardActions, CardTitle,  IconButton, CardMenu} from "react-mdl";
+import googlebooks from './assets/googlebooks.png'; 
+import diary from './assets/diary.png'; 
+import quiz from './assets/quiz.png'; 
+import codingInterview from './assets/codingInterview.png'; 
+import nomstoop from './assets/nomstoop.png'; 
+
+import sheduler from './assets/sheduler.png'; 
+import teamgenerator from './assets/teamgenerator.png'; 
+import workout from './assets/workout.png'; 
+
+
 
 class Project extends Component {
     constructor(props) {
@@ -13,14 +24,14 @@ class Project extends Component {
                 
                <div className="projects-grid">
                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Project 1</CardTitle>
+                <CardTitle expand style={{color: '#fff', background: 'url('+quiz+') no-repeat #46B6AC contain center'}}>Project 1</CardTitle>
                 <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                    Quiz App
                 </CardText>
                 <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Website</Button>
+                <a href="https://github.com/danybb2020/multipleChoiceQuiz" rel="noopener noreferrer" target="_blank">Github</a>{"\n"}
+                <a href="https://danybb2020.github.io/multipleChoiceQuiz/" rel="noopener noreferrer" target="_blank">Website</a>
+                    
                 </CardActions>
                 <CardMenu style={{color:"gray"}}>
                     <IconButton name="share"/>
@@ -28,14 +39,14 @@ class Project extends Component {
                 </Card>
 
                 <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Project 2</CardTitle>
+                <CardTitle expand style={{color: '#fff', background: 'url('+googlebooks+') no-repeat #46B6AC contain center'}}>Project 2</CardTitle>
                 <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                Google Book Search
                 </CardText>
                 <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Website</Button>
+                <a href="https://github.com/danybb2020/bookSearch" rel="noopener noreferrer" target="_blank">Github</a>{"\n"}
+                <a href="https://booksearch-dbh.herokuapp.com/" rel="noopener noreferrer" target="_blank">Website</a>
+                   
                 </CardActions>
                 <CardMenu style={{color:"gray"}}>
                     <IconButton name="share"/>
@@ -43,14 +54,14 @@ class Project extends Component {
                 </Card>
 
                 <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Project 3</CardTitle>
+                <CardTitle expand style={{color: '#fff', background: 'url('+sheduler+') no-repeat #46B6AC', backgroundSize: 'contain',  backgroundPosition: 'center'}}>Project 2</CardTitle>
                 <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                    Calendar scheduler App
                 </CardText>
                 <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Website</Button>
+                <a href="https://github.com/danybb2020/dailyScheduler" rel="noopener noreferrer" target="_blank">Github</a>{"\n"}
+                <a href="https://danybb2020.github.io/dailyScheduler/" rel="noopener noreferrer" target="_blank">Website</a>
+                   
                 </CardActions>
                 <CardMenu style={{color:"gray"}}>
                     <IconButton name="share"/>
@@ -58,14 +69,14 @@ class Project extends Component {
                 </Card>
 
                 <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Project 4</CardTitle>
+                <CardTitle expand style={{color: '#fff', background: 'url('+teamgenerator+') no-repeat #46B6AC', backgroundSize: 'contain',  backgroundPosition: 'center'}}>Project 2</CardTitle>
                 <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                   Team Generator App
                 </CardText>
                 <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Website</Button>
+                <a href="https://github.com/danybb2020/teamProfileGenerator" rel="noopener noreferrer" target="_blank">Github</a>{"\n"}
+                <a href="https://danybb2020.github.io/teamProfileGenerator/" rel="noopener noreferrer" target="_blank">Website</a>
+                   
                 </CardActions>
                 <CardMenu style={{color:"gray"}}>
                     <IconButton name="share"/>
@@ -73,14 +84,14 @@ class Project extends Component {
                 </Card>  
 
                 <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Project 3</CardTitle>
+                <CardTitle expand style={{color: '#fff', background: 'url('+workout+') no-repeat #46B6AC', backgroundSize: 'contain',  backgroundPosition: 'center'}}>Project 2</CardTitle>
                 <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                    Workout Fitness Tracker App
                 </CardText>
                 <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Website</Button>
+                <a href="https://github.com/danybb2020/workoutTracker" rel="noopener noreferrer" target="_blank">Github</a>{"\n"}
+                <a href="https://danybb2020.github.io/workoutTracker/" rel="noopener noreferrer" target="_blank">Website</a>
+                   
                 </CardActions>
                 <CardMenu style={{color:"gray"}}>
                     <IconButton name="share"/>
@@ -94,14 +105,14 @@ class Project extends Component {
             return(
                 <div className="projects-grid">
                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Project 1</CardTitle>
+                   <CardTitle expand style={{color: '#fff', background: 'url('+codingInterview+') no-repeat #46B6AC', backgroundSize: 'contain',  backgroundPosition: 'center'}}>Project 2</CardTitle>
                 <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                   Coding Interview App
                 </CardText>
                 <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Website</Button>
+                <a href="https://github.com/danybb2020/bookSearch" rel="noopener noreferrer" target="_blank">Github</a>{"\n"}
+                <a href="https://booksearch-dbh.herokuapp.com/" rel="noopener noreferrer" target="_blank">Website</a>
+                   
                 </CardActions>
                 <CardMenu style={{color:"gray"}}>
                     <IconButton name="share"/>
@@ -110,14 +121,14 @@ class Project extends Component {
                 
                 
                 <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Project 2</CardTitle>
+                <CardTitle expand style={{color: '#fff', background: 'url('+diary+') no-repeat #46B6AC', backgroundSize: 'contain',  backgroundPosition: 'center'}}>Project 1</CardTitle>
                 <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                    Oasis Journal App
                 </CardText>
                 <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Website</Button>
+                <a href="https://github.com/danybb2020/bookSearch" rel="noopener noreferrer" target="_blank">Github</a>{"\n"}
+                <a href="https://booksearch-dbh.herokuapp.com/" rel="noopener noreferrer" target="_blank">Website</a>
+                  
                 </CardActions>
                 <CardMenu style={{color:"gray"}}>
                     <IconButton name="share"/>
@@ -125,48 +136,36 @@ class Project extends Component {
                 </Card>
 
                 <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Project 3</CardTitle>
+                <CardTitle expand style={{color: '#fff', background: 'url('+nomstoop+') no-repeat #46B6AC', backgroundSize: 'contain',  backgroundPosition: 'center'}}>Project 2</CardTitle>
                 <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                    NoomStop Food App
                 </CardText>
                 <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Website</Button>
+                <a href="https://github.com/danybb2020/nomStopFoodApp" rel="noopener noreferrer" target="_blank">Github</a>{"\n"}
+                <a href="https://danybb2020.github.io/nomStopFoodApp/" rel="noopener noreferrer" target="_blank">Website</a>
+                  
                 </CardActions>
                 <CardMenu style={{color:"gray"}}>
                     <IconButton name="share"/>
                 </CardMenu>
                 </Card>
 
-                <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Project 4</CardTitle>
-                <CardText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
-                </CardText>
-                <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Website</Button>
-                </CardActions>
-                <CardMenu style={{color:"gray"}}>
-                    <IconButton name="share"/>
-                </CardMenu>
-                </Card>                    
+                                  
                 </div>
             )
         } else if(this.state.activeTab === 2) {
         return(
             <div className="projects-grid">
                    <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Project 1</CardTitle>
+                   <CardTitle expand style={{color: '#fff', background: 'url('+googlebooks+') no-repeat #46B6AC', backgroundSize: 'contain',  backgroundPosition: 'center'}}>Project 2</CardTitle>
                 <CardText>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aenan convallis.
                 </CardText>
                 <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Website</Button>
+                <a href="https://github.com/danybb2020/bookSearch" rel="noopener noreferrer" target="_blank">Github</a>{"\n"}
+                <a href="https://booksearch-dbh.herokuapp.com/" rel="noopener noreferrer" target="_blank">Website</a>
+                  
                 </CardActions>
                 <CardMenu style={{color:"gray"}}>
                     <IconButton name="share"/>
@@ -174,14 +173,15 @@ class Project extends Component {
                 </Card>
 
                 <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Project 2</CardTitle>
+                <CardTitle expand style={{color: '#fff', background: 'url('+googlebooks+') no-repeat #46B6AC', backgroundSize: 'contain',  backgroundPosition: 'center'}}>Project 2</CardTitle>
                 <CardText>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aenan convallis.
                 </CardText>
                 <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Website</Button>
+                <a href="https://github.com/danybb2020/bookSearch" rel="noopener noreferrer" target="_blank">Github</a>{"\n"}
+                <a href="https://booksearch-dbh.herokuapp.com/" rel="noopener noreferrer" target="_blank">Website</a>
+                  
                 </CardActions>
                 <CardMenu style={{color:"gray"}}>
                     <IconButton name="share"/>
@@ -189,19 +189,36 @@ class Project extends Component {
                 </Card>
 
                 <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
-                <CardTitle expand style={{color: '#fff', background: 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'}}>Project 3</CardTitle>
+                <CardTitle expand style={{color: '#fff', background: 'url('+googlebooks+') no-repeat #46B6AC', backgroundSize: 'contain',  backgroundPosition: 'center'}}>Project 2</CardTitle>
                 <CardText>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aenan convallis.
                 </CardText>
                 <CardActions border>
-                    <Button colored>GitHub</Button>
-                    <Button colored>Website</Button>
+                <a href="https://github.com/danybb2020/bookSearch" rel="noopener noreferrer" target="_blank">Github</a>{"\n"}
+                <a href="https://booksearch-dbh.herokuapp.com/" rel="noopener noreferrer" target="_blank">Website</a>
+                  
                 </CardActions>
                 <CardMenu style={{color:"gray"}}>
                     <IconButton name="share"/>
                 </CardMenu>
                 </Card>
+
+                <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
+                <CardTitle expand style={{color: '#fff', background: 'url('+googlebooks+') no-repeat #46B6AC', backgroundSize: 'contain',  backgroundPosition: 'center'}}>Project 2</CardTitle>
+                <CardText>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenan convallis.
+                </CardText>
+                <CardActions border>
+                <a href="https://github.com/danybb2020/bookSearch" rel="noopener noreferrer" target="_blank">Github</a>{"\n"}
+                <a href="https://booksearch-dbh.herokuapp.com/" rel="noopener noreferrer" target="_blank">Website</a>
+                  
+                </CardActions>
+                <CardMenu style={{color:"gray"}}>
+                    <IconButton name="share"/>
+                </CardMenu>
+                </Card>  
 
                 </div> )
     }

@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
 import { Cell, Grid , List, ListItem, ListItemContent ,} from 'react-mdl';
 
+
 class Contact extends Component {
 
     render(){
         return (
             <div className="contact-body">
                 <Grid className= "contact-grid">
-                    <Cell col={6}>
+                    {/* <Cell col={6}>
                         <h3>Daniel Balderas H.</h3>
                         <img
                         src="./deer.jpg"
@@ -17,8 +18,8 @@ class Contact extends Component {
                         />
                         <p style={{width:'75%', margin: "auto", paddingTop:"1em"}}>Mexican software engineer/Project Manager/Personal trainer in Seattle straight from Veracruz, Mexico. </p>
 
-                    </Cell>
-                    <Cell col={6}>
+                    </Cell> */}
+                    <Cell col={12}>
                         <h3>Contact me</h3>
                         <hr/>
                         <div className="contact-list">
@@ -40,14 +41,14 @@ class Contact extends Component {
                              <ListItem>
                              <ListItemContent style={{fontSize:"20px", fontFamily: "Roboto"}}>
                                     <i className="fa fa-linkedin-square" aria-hidden="true"/>
-                                   www.linkedin.com/in/danielbh/
+                                    <a href="https://www.linkedin.com/in/danielbh/" className="btn btn-primary"> Add me on LinkedIn!</a>
                                     </ListItemContent>
                              </ListItem>
 
                              <ListItem>
                              <ListItemContent style={{fontSize:"20px", fontFamily: "Roboto"}}>
                                     <i className="fa fa-github-square" aria-hidden="true"/>
-                                    https://github.com/danybb2020
+                                    <a href="https://github.com/danybb2020" className="btn btn-primary"> Add me on GitHub!</a> 
                                     </ListItemContent>
                              </ListItem>
 

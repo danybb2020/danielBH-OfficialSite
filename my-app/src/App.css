@@ -107,5 +107,13 @@ display: flex;
       padding-left: 40px;  
       padding-right: 10px;
         font-size: 50px;
+        text-align: center;
+        justify-content: center;
+     }
 
+     .contact-list {
+      padding-left: 40px;  
+      padding-right: 10px;
+        font-size: 50px;
+       
      }

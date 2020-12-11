@@ -20,24 +20,24 @@ class Landing extends Component {
                              <div className="socials">
                                   
                                   {/*github */}
-                                  <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+                                  <a href="https://github.com/danybb2020" rel="noopener noreferrer" target="_blank">
                                      <i className= "fa fa-github-square" aria-hidden="true"/>
                                   </a>
 
                                     {/*linkedin */}
-                                  <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+                                  <a href="https://www.linkedin.com/in/danielbh/" rel="noopener noreferrer" target="_blank">
                                      <i className= "fa fa-linkedin-square" aria-hidden="true"/>
                                   </a>
 
                                     {/*instagram */}
-                                  <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+                                  {/* <a href="https://www.instagram.com/daniel.balderas.h/" rel="noopener noreferrer" target="_blank">
                                      <i className= "fa fa-youtube-square" aria-hidden="true"/>
                                   </a>
 
                                    {/*Bootcamp */}
-                                   <a href="https://google.com" rel="noopener noreferrer" target="_blank">
+                                   {/* <a href="https://myaccount.google.com/profile?pli=1" rel="noopener noreferrer" target="_blank">
                                      <i className= "fa fa-google-plus-square" aria-hidden="true"/>
-                                  </a>
+                                  </a> */} 
 
 
                               </div>
